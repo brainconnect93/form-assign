@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <form action="/submit" method="post" enctype="multipart/form-data">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required><br>
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="tel" id="phoneNumber" name="phoneNumber" required><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
+
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+
+      <label for="motherMaidenName">Mother Maiden Name:</label>
+      <input type="text" id="motherMaidenName" name="motherMaidenName" required><br>
+
+      <label for="bvn">BVN:</label>
+      <input type="text" id="bvn" name="bvn" required><br>
+
+      <label for="accountNumber">Account Number:</label>
+      <input type="text" id="accountNumber" name="accountNumber" required><br>
+
+      <label for="nationality">Nationality:</label>
+      <input type="text" id="nationality" name="nationality" required><br>
+
+      <label for="residentAddress">Resident Address:</label>
+      <textarea id="residentAddress" name="residentAddress" required></textarea><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required><br>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+      </select><br>
+
+      <label for="maritalStatus">Marital Status:</label>
+      <select id="maritalStatus" name="maritalStatus" required>
+          <option value="single">Single</option>
+          <option value="married">Married</option>
+          <option value="divorced">Divorced</option>
+          <option value="widowed">Widowed</option>
+      </select><br>
+
+      <label for="description">Brief Description of Yourself:</label>
+      <textarea id="description" name="description" required></textarea><br>
+
+      <label for="passport">Upload Your Passport:</label>
+      <input type="file" id="passport" name="passport" accept="image/*" required><br>
+
+      <label for="accountType">Type of Account:</label>
+      <input type="text" id="accountType" name="accountType" required><br>
+
+      <label for="stateOfOrigin">State of Origin:</label>
+      <input type="text" id="stateOfOrigin" name="stateOfOrigin" required><br>
+
+      <label for="socialMedia">Link Your Social Media Account:</label>
+      <input type="url" id="socialMedia" name="socialMedia" placeholder="https://example.com" required><br>
+
+      <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
